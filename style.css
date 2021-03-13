@@ -1,0 +1,73 @@
+body {
+	background-position: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+.wrapper {
+	max-width: 1024px;
+	margin: 0 auto;
+	border: 3px solid olive;
+	padding: 5em;
+	}
+
+h1  {
+	margin: 0;
+	padding: .5em;
+	font-size: 3.5em;
+	line-height: 1.75;
+	text-shadow: 2px 2px olive;
+	letter-spacing: .75em;
+	text-transform: uppercase;
+	text-align: center;
+	}
+		
+.main_content {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	line-height: 2;
+	text-indent: 3em;
+	margin-top: 3em;
+	}
+	
+.my_sig {
+	text-align: right;
+	font-weight: bold;
+	color: darkgray;
+	font-size: 1.5em;
+	}
+		
+footer {
+	margin-top: 5em;
+	padding: 3em;
+	background-color: rgba(186, 184, 108, .3);
+	color: black;
+	}
+footer ul {
+	list-style: none;
+	text-indent:0;
+	line-height: 1.5;
+	}
+
+footer ul li {
+	padding: .5em;
+	}
+	
+	/* unvisited link */
+a:link {
+  color: olive;
+}
+
+/* visited link */
+a:visited {
+  color: orange;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: olive
+}
+
+/* selected link */
+a:active {
+  color: orange;
+}
